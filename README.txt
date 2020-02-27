@@ -1,3 +1,11 @@
+A small program (and python module) to calculate chi2 and p(chi2)
+
+
+USES FUNCTION FROM:
+https://www.mathsisfun.com/data/images/chi-square.js
+
+
+
 How to compile
 ====================
 
