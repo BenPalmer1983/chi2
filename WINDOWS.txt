@@ -1,0 +1,18 @@
+Open command prompt (Start -> search -> cmd)
+
+Change to the chi2 directory:
+
+e.g. cd "C:\Users\Username\Downloads\chi2"
+
+Assuming ForceFortran installs as f95:
+
+f95 -O3 -ffast-math src\kinds\kinds.f90 src\chi2\chi2.f90 src\main\main.f90 -o chi2.exe
+
+(untested)
+
+Run the program from the command line, same location:
+
+chi2.exe matrix.txt
+
+
+
